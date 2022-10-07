@@ -1,4 +1,6 @@
-# RossJ_DuttI
+# RossJ_DuttI 
+
+Real teamname: The WoMD(Weapons of Mass Destruction)
 
 **Ideas**
 
