@@ -850,3 +850,11 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.19-17.39.08:543][549]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
 [2022.11.19-17.40.47:574][676]BlueprintLog: New page: Compile VRPawn
 [2022.11.19-17.40.47:672][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.11.19-17.41.14:074][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.11.19-17.41.14:076][940]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.049
+[2022.11.19-17.41.14:077][940]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2022.11.19-17.41.14:108][940]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2022.11.19-17.41.14:108][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2022.11.19-17.41.14:153][940]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto2
+[2022.11.19-17.41.14:153][940]LogSavePackage: Moving 'D:/Unreal Projects/Ian_Projects/New folder/RossJ_DuttI/MyProject7/Saved/VRPawn_Auto24D0ADFFE4035991D002886BA6628BFE1.tmp' to 'D:/Unreal Projects/Ian_Projects/New folder/RossJ_DuttI/MyProject7/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto2.uasset'
+[2022.11.19-17.41.14:154][940]LogFileHelpers: Auto-saving content packages took 0.077
