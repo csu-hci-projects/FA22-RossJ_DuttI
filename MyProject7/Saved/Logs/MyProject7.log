@@ -1619,3 +1619,9 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.21-20.53.09:420][205]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
 [2022.11.21-20.53.09:420][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.11.21-20.53.12:645][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.11.21-20.56.08:186][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.11.21-20.56.08:229][325]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.11.21-20.56.08:229][325]LogSavePackage: Moving 'D:/Unreal Projects/Ian_Projects/New folder/RossJ_DuttI/MyProject7/Saved/VRTemplateMap79FBA73546CB0C18FA86BCA1BD96BCF3.tmp' to 'D:/Unreal Projects/Ian_Projects/New folder/RossJ_DuttI/MyProject7/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.11.21-20.56.08:237][325]LogFileHelpers: No new changes to save!
+[2022.11.21-20.56.08:260][325]AssetCheck: New page: Asset Save: VRTemplateMap
+[2022.11.21-20.56.08:260][325]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
