@@ -8595,3 +8595,1309 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.25-23.10.40:621][340]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/CustomContent/Maps/Level7_BuiltData.Level7_BuiltData
 [2022.11.25-23.10.41:985][403]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Level7.
 [2022.11.25-23.10.53:811][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.11.25-23.14.43:999][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.11.25-23.30.18:273][  4]LogAudioMixer: Warning: FMixerPlatformXAudio2: Audio device removed [[No Friendly Name for Device]], falling back to other windows default device. bIsRenderDevice=1, InstanceID=1
+[2022.11.25-23.30.18:273][  4]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2022.11.25-23.30.18:273][  4]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2022.11.25-23.30.18:438][  5]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=2884
+[2022.11.25-23.31.08:270][153]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Remote Audio, InstanceID=1
+[2022.11.25-23.31.08:270][153]LogViewport: Scene viewport resized to 1523x868, mode Windowed.
+[2022.11.25-23.31.08:368][154]LogViewport: Scene viewport resized to 1523x858, mode Windowed.
+[2022.11.25-23.31.08:496][154]LogViewport: Scene viewport resized to 1523x908, mode Windowed.
+[2022.11.25-23.31.08:651][154]LogViewport: Scene viewport resized to 1523x858, mode Windowed.
+[2022.11.25-23.31.08:718][154]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={3.0.0.00000005}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}, Name=Remote Audio), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=176.29
+[2022.11.25-23.31.08:718][154]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.25-23.31.08:721][155]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.25-23.32.05:097][335]Cmd: MAP LOAD FILE="M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/CustomContent/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.25-23.32.05:109][335]LightingResults: New page: Lighting Build
+[2022.11.25-23.32.05:109][335]LoadErrors: New page: Loading map: Level1.umap
+[2022.11.25-23.32.05:112][335]LogWorld: UWorld::CleanupWorld for Level7, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.32.05:112][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.32.05:112][335]MapCheck: New page: Map Check
+[2022.11.25-23.32.05:112][335]LightingResults: New page: Lighting Build
+[2022.11.25-23.32.05:120][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-23.32.05:122][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.11.25-23.32.05:154][335]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2022.11.25-23.32.05:154][335]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.25-23.32.05:154][335]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-23.32.05:154][335]LogAIModule: Creating AISystem for world Level1
+[2022.11.25-23.32.05:168][335]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.25-23.32.05:180][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.11.25-23.32.05:217][335]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.25-23.32.05:217][335]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.2ms to complete.
+[2022.11.25-23.32.05:217][335]LogFileHelpers: Loading map 'Level1' took 0.121
+[2022.11.25-23.32.10:133][892]Cmd: MAP LOAD FILE="M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/VRTemplate/Maps/VRTemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.25-23.32.10:145][892]LightingResults: New page: Lighting Build
+[2022.11.25-23.32.10:145][892]LoadErrors: New page: Loading map: VRTemplateMap.umap
+[2022.11.25-23.32.10:149][892]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.32.10:149][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.32.10:149][892]MapCheck: New page: Map Check
+[2022.11.25-23.32.10:149][892]LightingResults: New page: Lighting Build
+[2022.11.25-23.32.10:158][892]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-23.32.10:160][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.11.25-23.32.10:167][892]LogLinker: Warning: [AssetLog] M:\Senior Year- Fall\VR\RossJ_DuttI\RossJ_DuttI\MyProject7\Content\VRTemplate\Maps\VRTemplateMap.umap: Failed to load '/Game/VRTemplate/Maps/VRTemplateMap_BuiltData': Can't find file.
+[2022.11.25-23.32.10:167][892]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/VRTemplate/Maps/VRTemplateMap_BuiltData'
+[2022.11.25-23.32.10:193][892]LogAudio: Display: Audio Device (ID: 1) registered with world 'VRTemplateMap'.
+[2022.11.25-23.32.10:193][892]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.25-23.32.10:193][892]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-23.32.10:194][892]LogAIModule: Creating AISystem for world VRTemplateMap
+[2022.11.25-23.32.10:211][892]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.25-23.32.10:224][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.11.25-23.32.10:261][892]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.25-23.32.10:261][892]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2022.11.25-23.32.10:261][892]LogFileHelpers: Loading map 'VRTemplateMap' took 0.128
+[2022.11.25-23.32.20:372][ 75]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.VRTemplateMap
+[2022.11.25-23.32.20:372][ 75]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-23.32.21:357][ 75]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.25-23.32.44:307][352]LogSlate: Window 'VRTemplateMap' being destroyed
+[2022.11.25-23.32.44:350][352]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.32.44:350][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.33.20:773][619]Cmd: MAP LOAD FILE="M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/CustomContent/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.25-23.33.20:780][619]LightingResults: New page: Lighting Build
+[2022.11.25-23.33.20:780][619]LoadErrors: New page: Loading map: Hub.umap
+[2022.11.25-23.33.20:784][619]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.33.20:784][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.33.20:784][619]MapCheck: New page: Map Check
+[2022.11.25-23.33.20:784][619]LightingResults: New page: Lighting Build
+[2022.11.25-23.33.20:806][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-23.33.20:811][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.11.25-23.33.20:822][619]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hub'.
+[2022.11.25-23.33.20:822][619]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.25-23.33.20:822][619]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-23.33.20:822][619]LogAIModule: Creating AISystem for world Hub
+[2022.11.25-23.33.20:828][619]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.25-23.33.20:851][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.11.25-23.33.20:887][619]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.25-23.33.20:887][619]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.181ms to complete.
+[2022.11.25-23.33.20:887][619]LogFileHelpers: Loading map 'Hub' took 0.114
+[2022.11.25-23.34.00:512][299]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.11.25-23.34.00:512][299]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.11.25-23.34.00:513][299]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.StaticMeshActor_0
+[2022.11.25-23.34.00:517][299]LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 653EEF1F9C430B82F83CBE22ABA02782FA3546ED), compiling. 
+[2022.11.25-23.34.00:596][299]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.StaticMeshActor_0
+[2022.11.25-23.34.45:443][518]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: ================================================
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Total job queries 8645, among them cache hits 0 (0.00%)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Tracking 8571 distinct input hashes that result in 2752 distinct outputs (32.11%)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: RAM used: 13.47 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.82%
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Shaders Compiled: 8645
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Jobs assigned 8642, completed 8571 (99.18%)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Average time worker was idle: 28.10 s
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Time job spent in pending queue: average 1126.19 s, longest 2668.44 s
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Job execution time: average 28.27 s, max 79.86 s
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Job life time (pending + execution): average 1163.79 s, max 2669.96
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3319.02 s
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Jobs were issued in 1067 batches (only local compilation was used), average 8.10 jobs/batch
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Average processing rate: 2.58 jobs/sec
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Effective parallelization: 7.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 17.13 sec, max 31.63 sec, min 6.73 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 13.38 sec, max 13.38 sec, min 13.38 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 13.16 sec, max 13.16 sec, min 13.16 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 11.10 sec, max 11.10 sec, min 11.10 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:                                   FCloudRenderViewPS001false (compiled    1 times, average 10.16 sec, max 10.16 sec, min 10.16 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.73% of total time (compiled  401 times, average 4.80 sec, max 14.20 sec, min 0.60 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.24% of total time (compiled  207 times, average 8.71 sec, max 13.19 sec, min 4.06 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.22% of total time (compiled  207 times, average 8.69 sec, max 12.82 sec, min 4.35 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.09% of total time (compiled  208 times, average 8.48 sec, max 12.28 sec, min 4.18 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.02% of total time (compiled  203 times, average 8.60 sec, max 12.08 sec, min 2.98 sec)
+[2022.11.25-23.34.49:203][859]LogShaderCompilers: Display: ================================================
+[2022.11.25-23.35.09:082][908]LogShaderCompilers: Display: Worker (5/8) finished batch of 10 jobs in 68.480s, TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=9.674s], TBasePassPSTLightMapPolicyHQSkylight [WorkerTime=9.203s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=9.180s], TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=9.062s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight [WorkerTime=8.792s], TBasePassPSFNoLightMapPolicy [WorkerTime=8.750s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=6.962s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=3.124s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=1.870s], TBasePassVSFCachedVolumeIndirectLightingPolicy [WorkerTime=1.525s]
+[2022.11.25-23.35.09:183][913]LogShaderCompilers: Display: Worker (7/8) finished batch of 10 jobs in 68.581s, TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=9.730s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=9.521s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight [WorkerTime=9.403s], TBasePassPSTLightMapPolicyHQ [WorkerTime=9.105s], TBasePassPSTLightMapPolicyLQ [WorkerTime=8.964s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=8.585s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=6.529s], TBasePassVSFCachedVolumeIndirectLightingPolicy [WorkerTime=2.464s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=2.367s], TBasePassVSTLightMapPolicyHQ [WorkerTime=1.584s]
+[2022.11.25-23.35.12:103][259]LogShaderCompilers: Display: Worker (8/8) finished batch of 10 jobs in 71.500s, TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=9.806s], TBasePassPSTLightMapPolicyHQ [WorkerTime=9.666s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=9.515s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=9.297s], TBasePassPSTLightMapPolicyHQSkylight [WorkerTime=8.913s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=8.790s], TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=6.920s], TBasePassPSFNoLightMapPolicy [WorkerTime=4.810s], TBasePassVSTLightMapPolicyLQ [WorkerTime=1.826s], TBasePassVSFNoLightMapPolicy [WorkerTime=1.586s]
+[2022.11.25-23.35.12:205][266]LogShaderCompilers: Display: Worker (4/8) finished batch of 10 jobs in 71.602s, TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=9.435s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=9.243s], TBasePassPSFNoLightMapPolicy [WorkerTime=9.165s], TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=9.087s], TBasePassPSTLightMapPolicyHQ [WorkerTime=8.882s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=8.559s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=7.759s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=7.018s], TBasePassVSTLightMapPolicyLQ [WorkerTime=1.415s], FDebugViewModePS [WorkerTime=0.735s]
+[2022.11.25-23.35.17:771][901]LogShaderCompilers: Display: Worker (1/8) finished batch of 10 jobs in 77.138s, TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight [WorkerTime=13.691s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=12.279s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=10.047s], TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=9.590s], TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=9.577s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=9.430s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=5.987s], TBasePassPSTLightMapPolicyLQ [WorkerTime=4.215s], FDebugViewModeVS [WorkerTime=1.494s], FDebugViewModePS [WorkerTime=0.473s]
+[2022.11.25-23.35.19:380][ 83]LogShaderCompilers: Display: Worker (2/8) finished batch of 10 jobs in 78.749s, TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=13.602s], TBasePassPSTLightMapPolicyHQ [WorkerTime=12.159s], TBasePassPSFNoLightMapPolicy [WorkerTime=11.811s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=11.587s], TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=9.634s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=7.825s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=4.242s], TBasePassPSTLightMapPolicyHQSkylight [WorkerTime=3.813s], TBasePassVSFCachedVolumeIndirectLightingPolicy [WorkerTime=2.446s], FDebugViewModeVS [WorkerTime=1.323s]
+[2022.11.25-23.35.19:634][109]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.19:676][114]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.19:793][128]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.19:918][143]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.20:320][188]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.22:180][405]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.22:855][485]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.24:436][673]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.25:379][785]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.26:006][857]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.28:552][156]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.29:224][234]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.30:031][330]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.30:790][421]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.31:686][528]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.32:709][648]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.37:178][159]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.37:220][164]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.37:262][169]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.37:429][188]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.37:680][217]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.38:095][262]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.39:370][411]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.39:437][419]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.39:627][441]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.39:911][472]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.40:639][557]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.40:840][580]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.41:227][623]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.42:084][723]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.42:143][730]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.43:078][841]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.35.43:319][867]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.08:111][460]LogSlate: Window 'Save Content' being destroyed
+[2022.11.25-23.36.08:241][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.11.25-23.36.08:555][460]LogSavePackage: Moving output files for package: /Game/CustomContent/Maps/Hub
+[2022.11.25-23.36.08:567][460]LogSavePackage: Moving 'M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Saved/HubA61189C64995239125A5C3A8AA2CCDDC.tmp' to 'M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/CustomContent/Maps/Hub.umap'
+[2022.11.25-23.36.08:633][460]LogFileHelpers: Saving map 'Hub' took 0.415
+[2022.11.25-23.36.08:645][460]Cmd: MAP LOAD FILE="M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/CustomContent/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.25-23.36.08:657][460]LightingResults: New page: Lighting Build
+[2022.11.25-23.36.08:657][460]LoadErrors: New page: Loading map: Level1.umap
+[2022.11.25-23.36.08:699][460]LogWorld: UWorld::CleanupWorld for Hub, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.36.08:700][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.36.08:700][460]MapCheck: New page: Map Check
+[2022.11.25-23.36.08:700][460]LightingResults: New page: Lighting Build
+[2022.11.25-23.36.08:722][460]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-23.36.08:723][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.11.25-23.36.08:754][460]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2022.11.25-23.36.08:754][460]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.25-23.36.08:754][460]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-23.36.08:754][460]LogAIModule: Creating AISystem for world Level1
+[2022.11.25-23.36.08:768][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.25-23.36.08:795][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2022.11.25-23.36.08:835][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.25-23.36.08:835][460]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.212ms to complete.
+[2022.11.25-23.36.08:835][460]LogFileHelpers: Loading map 'Level1' took 0.190
+[2022.11.25-23.36.08:840][460]AssetCheck: New page: Asset Save: Hub
+[2022.11.25-23.36.08:840][460]LogContentValidation: Display: Validating World /Game/CustomContent/Maps/Hub.Hub
+[2022.11.25-23.36.12:053][819]Cmd: EDIT COPY
+[2022.11.25-23.36.14:085][ 56]Cmd: EDIT COPY
+[2022.11.25-23.36.17:711][471]Cmd: MAP LOAD FILE="M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/CustomContent/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.25-23.36.17:711][471]LightingResults: New page: Lighting Build
+[2022.11.25-23.36.17:711][471]LoadErrors: New page: Loading map: Hub.umap
+[2022.11.25-23.36.17:715][471]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.36.17:715][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.36.17:715][471]MapCheck: New page: Map Check
+[2022.11.25-23.36.17:715][471]LightingResults: New page: Lighting Build
+[2022.11.25-23.36.17:737][471]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-23.36.17:739][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.11.25-23.36.17:742][471]LogWorld: UWorld::CleanupWorld for Hub, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-23.36.17:742][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-23.36.17:763][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.11.25-23.36.17:785][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.11.25-23.36.17:792][471]LogAudio: Display: Audio Device (ID: 1) registered with world 'Hub'.
+[2022.11.25-23.36.17:792][471]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.25-23.36.17:792][471]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-23.36.17:792][471]LogAIModule: Creating AISystem for world Hub
+[2022.11.25-23.36.17:795][471]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.25-23.36.17:818][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.11.25-23.36.17:869][471]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.25-23.36.17:869][471]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2022.11.25-23.36.17:870][471]LogFileHelpers: Loading map 'Hub' took 0.159
+[2022.11.25-23.36.30:093][874]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.31:354][ 22]LogEditorViewport: Clicking Background
+[2022.11.25-23.36.32:156][116]Cmd: EDIT PASTE
+[2022.11.25-23.36.39:002][921]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.39:589][940]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.39:779][942]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.40:731][ 56]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.41:048][ 93]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.48:781][  1]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.48:956][ 22]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.49:814][125]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.50:439][200]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.50:907][255]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.51:738][352]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.52:513][445]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.52:966][498]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.36.53:357][545]LogEditorViewport: Clicking Background
+[2022.11.25-23.36.54:977][732]Cmd: DELETE
+[2022.11.25-23.36.54:977][732]Cmd: ACTOR DELETE
+[2022.11.25-23.36.54:981][732]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.25-23.36.55:012][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.11.25-23.36.55:014][732]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2022.11.25-23.36.55:031][733]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.03:729][754]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.11:576][685]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.13:780][946]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.14:262][  4]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.15:230][119]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.15:870][195]LogEditorViewport: Clicking Background
+[2022.11.25-23.37.18:004][439]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.18:871][543]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.19:356][600]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.28:207][640]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.37:717][772]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.47:782][960]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.48:703][ 68]LogEditorViewport: Clicking Background
+[2022.11.25-23.37.51:111][344]Cmd: EDIT COPY
+[2022.11.25-23.37.51:293][364]Cmd: EDIT PASTE
+[2022.11.25-23.37.51:335][365]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.53:887][666]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.54:095][691]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.54:503][740]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.55:096][810]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.37.55:601][870]LogEditorViewport: Clicking Background
+[2022.11.25-23.38.04:645][924]Cmd: EDIT COPY
+[2022.11.25-23.38.04:872][950]Cmd: EDIT PASTE
+[2022.11.25-23.38.04:924][951]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.06:153][ 96]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.06:387][124]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.06:678][159]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.07:381][242]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.09:198][460]Cmd: EDIT COPY
+[2022.11.25-23.38.09:422][485]Cmd: EDIT PASTE
+[2022.11.25-23.38.09:471][486]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.10:308][584]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.10:350][589]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.10:793][641]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.10:882][651]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.11:144][681]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.11:228][691]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.11:426][714]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.11:564][730]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.12:580][850]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.12:668][860]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.16:193][274]Cmd: EDIT COPY
+[2022.11.25-23.38.16:451][303]Cmd: EDIT PASTE
+[2022.11.25-23.38.16:502][304]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:214][382]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:232][384]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:404][403]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:493][413]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:531][417]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:682][434]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.17:700][436]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.18:240][499]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.18:422][519]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.21:390][867]Cmd: EDIT COPY
+[2022.11.25-23.38.21:654][897]Cmd: EDIT PASTE
+[2022.11.25-23.38.21:701][898]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.22:735][ 21]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.22:794][ 28]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.22:957][ 46]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.23:015][ 53]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.23:415][ 99]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.23:432][101]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.24:490][228]Cmd: EDIT COPY
+[2022.11.25-23.38.24:677][249]Cmd: EDIT PASTE
+[2022.11.25-23.38.24:723][250]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.25:254][312]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.25:345][323]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.25:693][363]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.25:752][370]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.25:873][384]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.26:024][401]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.26:546][462]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.26:647][474]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.27:032][518]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.27:165][534]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.29:215][776]LogEditorViewport: Clicking Background
+[2022.11.25-23.38.36:343][614]LogEditorViewport: Clicking Background
+[2022.11.25-23.38.44:007][511]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.44:092][521]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.45:592][698]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.45:668][707]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.46:152][763]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.46:360][786]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.47:090][872]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.47:261][891]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.50:812][317]Cmd: EDIT COPY
+[2022.11.25-23.38.51:073][344]Cmd: EDIT PASTE
+[2022.11.25-23.38.51:156][345]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.52:654][523]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.52:833][543]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.53:028][565]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.53:186][582]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.56:874][ 14]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.57:099][ 41]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.57:324][ 68]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.57:833][129]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.58:000][149]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.58:092][160]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.58:350][191]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:133][285]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:232][297]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:375][314]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:658][348]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:692][352]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:766][361]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:791][364]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:825][368]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:858][372]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:925][380]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.38.59:967][385]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.00:018][391]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.00:076][398]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.00:167][409]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.00:451][443]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.01:301][545]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.01:543][574]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.02:793][724]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.03:480][805]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.03:872][851]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.04:135][881]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.04:636][940]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.04:723][950]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.05:057][988]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.05:135][997]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.05:404][ 27]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.05:534][ 42]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.05:877][ 82]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.05:921][ 87]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.06:546][160]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.06:627][169]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.07:695][297]Cmd: TRANSACTION UNDO
+[2022.11.25-23.39.07:695][297]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.39.07:812][298]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.08:198][302]Cmd: TRANSACTION UNDO
+[2022.11.25-23.39.08:198][302]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.39.08:312][303]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.08:713][351]Cmd: TRANSACTION UNDO
+[2022.11.25-23.39.08:713][351]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.39.08:758][352]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.09:143][398]Cmd: TRANSACTION UNDO
+[2022.11.25-23.39.09:143][398]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.39.09:178][399]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.09:703][462]Cmd: TRANSACTION UNDO
+[2022.11.25-23.39.09:703][462]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.39.09:738][463]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.10:180][516]Cmd: TRANSACTION UNDO
+[2022.11.25-23.39.10:180][516]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.39.10:217][517]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.12:378][770]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.12:907][832]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.12:940][836]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.12:957][838]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:024][846]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:059][850]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:110][856]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:188][865]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:261][873]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:428][892]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:531][904]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:612][913]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:722][926]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:845][940]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.13:887][945]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.15:055][ 85]LogEditorViewport: Clicking Background
+[2022.11.25-23.39.17:509][365]Cmd: DELETE
+[2022.11.25-23.39.17:509][365]Cmd: ACTOR DELETE
+[2022.11.25-23.39.17:512][365]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.25-23.39.17:536][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2022.11.25-23.39.17:542][365]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2022.11.25-23.39.17:558][366]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.28:053][552]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.30:435][830]Cmd: EDIT COPY
+[2022.11.25-23.39.30:657][856]Cmd: EDIT PASTE
+[2022.11.25-23.39.30:734][857]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.31:504][946]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:115][ 16]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:182][ 24]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:203][ 26]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:297][ 37]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:364][ 45]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:450][ 55]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:584][ 71]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:611][ 74]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:802][ 94]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:828][ 97]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:939][110]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.32:976][113]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.33:041][120]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.33:147][132]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.33:280][147]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.33:510][172]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.34:519][293]LogEditorViewport: Clicking Background
+[2022.11.25-23.39.38:007][687]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.45:874][571]LogEditorViewport: Clicking Background
+[2022.11.25-23.39.49:297][954]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.52:721][350]Cmd: EDIT COPY
+[2022.11.25-23.39.52:944][375]Cmd: EDIT PASTE
+[2022.11.25-23.39.53:006][376]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.53:979][491]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.54:205][516]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.54:362][534]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.54:502][550]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.54:628][565]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.54:687][572]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.54:880][593]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.55:022][609]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.55:041][611]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.55:168][626]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.55:499][664]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.55:962][717]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:141][735]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:267][750]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:326][757]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:444][771]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:476][774]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:595][788]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:617][790]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:756][806]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.56:773][808]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:005][834]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:211][859]LogDerivedDataCache: C:/Users/rossjm73/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.026 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.25-23.39.57:237][861]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:412][879]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:462][885]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:640][904]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:749][917]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:766][919]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:859][930]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.57:936][939]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.58:074][955]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.58:097][957]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.39.58:897][ 53]LogEditorViewport: Clicking Background
+[2022.11.25-23.40.15:731][ 18]LogEditorViewport: Clicking Background
+[2022.11.25-23.40.25:343][149]Cmd: EDIT COPY
+[2022.11.25-23.40.25:535][171]Cmd: EDIT PASTE
+[2022.11.25-23.40.25:583][172]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.26:892][326]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.27:009][340]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.27:435][391]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.27:912][447]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.29:436][626]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.30:144][711]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.31:244][843]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.31:394][861]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.31:469][870]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:061][941]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:095][945]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:186][956]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:327][973]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:720][ 20]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:777][ 27]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:877][ 39]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.32:952][ 48]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.33:277][ 87]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.33:486][112]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.34:312][211]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.35:031][296]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.35:692][373]LogEditorViewport: Clicking Background
+[2022.11.25-23.40.38:329][673]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.38:438][686]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.38:597][705]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.38:755][724]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.39:005][754]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.39:504][814]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.41:771][ 86]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.43:466][288]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.44:347][391]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.45:080][479]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.45:564][537]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.46:033][592]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.46:704][671]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.47:230][733]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.47:630][781]LogEditorViewport: Clicking Background
+[2022.11.25-23.40.52:084][297]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.52:318][325]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.52:777][380]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.53:035][411]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.53:269][439]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.53:435][459]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.53:577][476]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.54:452][581]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.54:969][643]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:060][654]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:168][667]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:268][679]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:343][688]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:393][694]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:452][701]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:644][724]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.55:752][737]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.56:185][789]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.56:860][870]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.57:779][979]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.40.59:975][234]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.00:093][248]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.01:048][361]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.01:137][371]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.03:015][595]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.03:141][610]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.08:177][210]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.08:230][215]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.08:286][221]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.08:337][227]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.11:486][603]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.11:654][622]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:391][299]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:533][316]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:583][322]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:650][330]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:675][333]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:708][337]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:750][342]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:842][353]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.17:942][365]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.18:091][383]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.18:191][395]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.18:800][468]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.19:016][494]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.19:250][522]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.19:442][545]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.19:483][550]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.20:233][640]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.21:701][815]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.24:999][208]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.25:081][218]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.25:240][237]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.25:440][261]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.25:690][291]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.26:407][377]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.26:690][411]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.27:390][495]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.27:565][516]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.27:798][544]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.28:265][600]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.28:851][669]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.29:301][723]LogEditorViewport: Clicking Background
+[2022.11.25-23.41.33:646][221]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.33:714][229]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.34:143][277]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.37:594][685]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.37:686][696]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.37:920][724]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.38:128][749]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.38:253][764]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.38:361][777]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.38:469][790]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.38:894][841]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.39:136][870]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.39:578][923]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.40:236][  1]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.40:936][ 85]LogEditorViewport: Clicking Background
+[2022.11.25-23.41.43:716][411]Cmd: EDIT COPY
+[2022.11.25-23.41.43:944][437]Cmd: EDIT PASTE
+[2022.11.25-23.41.44:002][438]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.44:944][549]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.45:299][590]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.45:452][608]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.45:642][630]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.47:866][895]Cmd: EDIT COPY
+[2022.11.25-23.41.48:092][921]Cmd: EDIT PASTE
+[2022.11.25-23.41.48:137][922]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.48:456][958]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.48:500][963]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.48:818][  0]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.48:869][  5]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.48:982][ 18]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.49:003][ 20]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.49:185][ 41]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.49:858][120]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.49:933][129]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.50:538][200]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.50:635][211]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.52:212][399]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.52:266][405]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.53:167][512]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.53:293][527]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.58:907][176]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.41.58:968][182]Cmd: DELETE
+[2022.11.25-23.41.58:968][182]Cmd: ACTOR DELETE
+[2022.11.25-23.41.58:971][182]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.25-23.41.58:994][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.11.25-23.41.59:002][182]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.11.25-23.41.59:018][184]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.01:653][500]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.01:653][500]LogEditorTransaction: Undo Delete Elements
+[2022.11.25-23.42.01:752][501]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.04:797][803]LogEditorViewport: Clicking Background
+[2022.11.25-23.42.06:834][ 38]Cmd: DELETE
+[2022.11.25-23.42.06:834][ 38]Cmd: ACTOR DELETE
+[2022.11.25-23.42.06:838][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.25-23.42.06:862][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.11.25-23.42.06:864][ 38]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.11.25-23.42.06:882][ 39]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.08:879][271]LogEditorViewport: Clicking Background
+[2022.11.25-23.42.09:858][386]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.09:858][386]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.12:578][643]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.12:578][643]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.12:979][690]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.12:979][690]LogEditorTransaction: Undo Delete Elements
+[2022.11.25-23.42.13:031][691]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.13:349][729]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.13:349][729]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.13:685][768]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.13:685][768]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.14:057][808]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.14:057][808]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.14:355][837]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.14:355][837]LogEditorTransaction: Undo Set Scale
+[2022.11.25-23.42.14:374][838]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.14:648][870]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.14:648][870]LogEditorTransaction: Undo Set Location
+[2022.11.25-23.42.14:667][871]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.15:059][918]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.15:059][918]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.15:087][919]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.15:286][943]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.15:286][943]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.15:307][944]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.15:466][963]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.15:466][963]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.15:487][964]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.15:722][992]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.15:722][992]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.15:751][993]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.15:911][ 11]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.15:911][ 11]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.15:934][ 12]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.16:167][ 40]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.16:167][ 40]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.16:199][ 41]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.16:541][ 82]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.16:541][ 82]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.16:563][ 83]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.16:839][116]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.16:839][116]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.16:860][117]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.17:169][154]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.17:169][154]LogEditorTransaction: Undo Paste
+[2022.11.25-23.42.17:217][155]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.17:510][190]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.17:510][190]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.17:532][191]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.17:834][227]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.17:834][227]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.17:862][228]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.18:248][274]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.18:248][274]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.18:269][275]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.19:322][401]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.19:322][401]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.19:349][402]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.19:800][456]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.19:800][456]LogEditorTransaction: Undo Paste
+[2022.11.25-23.42.19:850][457]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.20:134][491]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.20:134][491]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.20:695][557]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.20:695][557]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.21:135][605]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.21:135][605]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.21:157][606]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.21:548][653]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.21:548][653]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.21:570][654]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.22:361][749]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.22:361][749]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.22:386][750]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.22:694][787]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.22:694][787]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.22:994][818]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.22:994][818]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.23:436][870]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.23:436][870]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.24:104][945]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.24:104][945]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.24:125][946]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.25:252][ 81]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.25:252][ 81]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.25:273][ 82]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.25:698][133]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.25:698][133]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.25:720][134]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.26:037][172]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.26:037][172]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.26:058][173]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.26:701][250]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.26:701][250]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.26:722][251]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.33:324][ 40]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.33:324][ 40]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.33:398][ 41]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.33:586][ 43]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.33:586][ 43]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.33:684][ 44]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.33:870][ 46]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.33:870][ 46]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.33:966][ 47]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.34:208][ 76]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.34:208][ 76]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.42.34:235][ 77]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.34:510][110]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.34:510][110]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.34:880][151]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.34:880][151]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.35:208][186]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.35:208][186]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.35:236][187]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.35:436][211]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.35:436][211]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.35:458][212]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.35:692][240]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.35:692][240]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.35:715][241]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.35:915][265]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.35:915][265]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.36:140][291]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.36:140][291]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.36:357][313]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.36:357][313]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.42.36:379][314]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.36:595][340]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.36:595][340]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.42.36:619][341]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.36:768][359]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.36:768][359]LogEditorTransaction: Undo Paste
+[2022.11.25-23.42.36:819][360]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.36:994][381]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.36:994][381]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.42.37:402][429]Cmd: TRANSACTION UNDO
+[2022.11.25-23.42.37:402][429]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.42.39:321][654]LogEditorViewport: Clicking Background
+[2022.11.25-23.42.50:733][  6]Cmd: EDIT COPY
+[2022.11.25-23.42.50:917][ 27]Cmd: EDIT PASTE
+[2022.11.25-23.42.50:967][ 28]Cmd: EDIT COPY
+[2022.11.25-23.42.50:968][ 28]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.52:570][218]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.52:760][239]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.52:925][258]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.52:946][260]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.53:071][275]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.53:130][282]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.53:193][289]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.53:374][309]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.53:722][348]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.53:854][363]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.54:604][453]Cmd: EDIT COPY
+[2022.11.25-23.42.54:796][475]Cmd: EDIT PASTE
+[2022.11.25-23.42.54:848][476]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:013][494]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:063][500]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:185][514]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:202][516]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:286][526]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:362][535]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:443][544]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:478][548]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:822][588]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.55:906][598]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.56:240][638]Cmd: EDIT COPY
+[2022.11.25-23.42.56:426][659]Cmd: EDIT PASTE
+[2022.11.25-23.42.56:478][660]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.56:719][687]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.56:766][692]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.56:865][704]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.56:891][707]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.57:066][726]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.57:590][789]Cmd: EDIT COPY
+[2022.11.25-23.42.57:811][814]Cmd: EDIT PASTE
+[2022.11.25-23.42.57:859][815]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.57:990][830]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.58:014][832]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.58:171][849]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.58:298][864]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.58:326][867]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.58:684][910]Cmd: EDIT COPY
+[2022.11.25-23.42.58:942][940]Cmd: EDIT PASTE
+[2022.11.25-23.42.58:991][941]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.59:101][953]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.59:160][960]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.59:273][973]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.59:291][975]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.42.59:447][992]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.00:697][142]LogEditorViewport: Clicking Background
+[2022.11.25-23.43.05:548][715]Cmd: EDIT COPY
+[2022.11.25-23.43.05:726][735]Cmd: EDIT PASTE
+[2022.11.25-23.43.05:775][736]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.06:752][852]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.06:804][858]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.06:988][877]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.07:080][888]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.07:106][891]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.07:238][906]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.07:291][912]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.09:932][225]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.10:240][262]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.11:176][373]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.13:191][609]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.13:317][624]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.13:600][658]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.13:849][688]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.13:958][701]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:033][710]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:075][715]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:157][725]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:409][755]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:608][779]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:675][787]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:750][796]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.14:858][809]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.15:194][848]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.18:112][195]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.18:137][197]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.18:221][207]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.18:289][215]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.18:485][237]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.18:959][292]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.19:042][302]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.20:676][496]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.20:718][501]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.23:244][804]LogEditorViewport: Clicking Background
+[2022.11.25-23.43.25:482][ 64]Cmd: EDIT COPY
+[2022.11.25-23.43.25:721][ 90]Cmd: EDIT PASTE
+[2022.11.25-23.43.25:779][ 91]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.26:903][224]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.26:987][234]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.27:146][252]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.27:214][260]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.27:465][289]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.31:613][775]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.31:722][788]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.31:780][795]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.31:831][801]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.31:905][810]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.31:980][819]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.32:064][829]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.32:138][838]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.32:222][848]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.32:497][881]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.33:223][968]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.33:297][977]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.33:347][983]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.33:389][988]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.33:472][998]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.33:630][ 17]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.34:172][ 82]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.34:256][ 92]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.34:497][121]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.36:039][306]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.36:580][371]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.37:130][437]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.37:630][497]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.38:272][574]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.39:884][766]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.40:739][865]LogEditorViewport: Clicking Background
+[2022.11.25-23.43.42:942][119]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.42:984][124]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.43:787][219]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.43:924][235]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.45:547][422]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.45:715][440]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.45:782][448]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.45:849][456]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.45:978][471]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.46:037][478]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.46:377][516]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.46:461][526]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.46:988][587]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:515][647]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:540][650]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:556][652]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:628][660]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:659][663]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:857][686]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.47:879][688]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:012][704]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:122][717]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:301][737]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:352][743]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:481][758]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:532][764]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:661][779]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.48:678][781]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.49:082][828]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.49:184][840]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.49:677][897]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.50:127][949]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.50:167][953]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.50:435][984]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.50:904][ 39]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.50:972][ 47]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.50:989][ 49]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:056][ 57]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:106][ 63]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:128][ 65]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:158][ 68]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:398][ 96]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:500][108]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:579][117]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.51:682][129]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.52:234][193]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.52:259][196]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:021][406]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:125][418]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:157][421]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:259][433]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:691][482]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:732][487]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.54:924][506]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.55:798][609]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.57:607][825]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.57:651][830]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.57:993][869]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.58:460][923]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.58:476][925]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.58:577][937]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.58:645][945]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.58:886][973]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.58:909][975]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:061][992]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:108][997]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:204][  8]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:273][ 16]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:404][ 31]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:460][ 37]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:548][ 47]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.43.59:649][ 59]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.02:026][344]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.02:026][344]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.02:127][345]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.02:657][353]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.02:657][353]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.02:679][354]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.03:028][396]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.03:028][396]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.03:052][397]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.03:321][429]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.03:321][429]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.03:344][430]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.03:545][454]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.03:546][454]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.03:571][455]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.03:763][478]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.03:763][478]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.03:783][479]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.04:285][539]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.04:285][539]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.04:306][540]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.04:731][591]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.04:731][591]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.04:753][592]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.05:144][639]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.05:144][639]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.05:166][640]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.05:549][686]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.05:549][686]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.05:572][687]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.05:914][728]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.05:914][728]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.05:936][729]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.06:211][762]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.06:212][762]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.06:233][763]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.06:550][801]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.06:550][801]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.06:572][802]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.06:956][848]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.06:957][848]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.06:990][849]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.07:249][880]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.07:249][880]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.07:285][881]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.07:476][904]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.07:476][904]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.07:498][905]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.07:623][920]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.07:623][920]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.07:635][921]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.07:960][960]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.07:960][960]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.07:982][961]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.08:182][985]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.08:182][985]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.08:203][986]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.08:403][ 10]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.08:403][ 10]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.08:423][ 11]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.08:590][ 31]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.08:590][ 31]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.08:610][ 32]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.08:771][ 51]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.08:771][ 51]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.08:792][ 52]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.08:919][ 67]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.08:919][ 67]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.08:938][ 68]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.09:105][ 88]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.09:105][ 88]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.09:126][ 89]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.09:368][118]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.09:368][118]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.09:394][119]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.09:771][164]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.09:771][164]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.09:793][165]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.09:993][189]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.09:993][189]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.10:015][190]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.10:215][214]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.10:215][214]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.10:236][215]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.10:370][231]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.10:370][231]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.10:390][232]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.10:548][251]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.10:548][251]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.44.10:568][252]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.10:744][273]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.10:744][273]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.44.10:764][274]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.10:889][289]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.10:889][289]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.44.11:289][337]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.11:289][337]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.44.11:593][369]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.11:593][369]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.44.11:613][370]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.11:889][403]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.11:889][403]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.11:910][404]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.13:481][592]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.13:482][592]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.13:504][593]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.13:929][644]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.13:929][644]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.13:950][645]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.14:259][682]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.14:259][682]LogEditorTransaction: Undo Paste
+[2022.11.25-23.44.14:307][683]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.15:041][771]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.15:041][771]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.44.15:520][827]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.15:520][827]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.44.16:112][892]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.16:112][892]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.16:145][893]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.16:680][957]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.16:680][957]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.16:700][958]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.17:076][  3]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.17:076][  3]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.17:097][  4]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.17:448][ 46]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.17:448][ 46]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.17:469][ 47]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.17:785][ 85]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.17:785][ 85]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.17:807][ 86]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.18:082][119]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.18:082][119]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.44.18:105][120]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.18:338][148]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.18:338][148]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.44.18:359][149]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.25:225][964]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.26:018][ 59]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.26:912][165]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.27:985][293]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.27:985][293]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.44.28:054][294]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.28:525][299]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.28:525][299]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.44.28:625][300]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.30:285][497]LogEditorViewport: Clicking Background
+[2022.11.25-23.44.34:373][976]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.34:565][999]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.34:923][ 42]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.35:048][ 57]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.35:607][124]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.36:473][228]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.37:267][322]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.38:303][444]LogEditorViewport: Clicking Background
+[2022.11.25-23.44.38:911][516]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.38:911][516]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.44.39:497][522]Cmd: TRANSACTION UNDO
+[2022.11.25-23.44.39:497][522]LogEditorTransaction: Undo Rotate Elements
+[2022.11.25-23.44.39:520][523]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.41:469][757]Cmd: EDIT COPY
+[2022.11.25-23.44.41:728][787]Cmd: EDIT PASTE
+[2022.11.25-23.44.41:775][788]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.43:102][945]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.44:203][ 77]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.44:219][ 79]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.44:244][ 82]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.44:947][165]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.47:453][455]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.47:995][520]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.48:547][585]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.48:963][633]LogEditorViewport: Clicking Background
+[2022.11.25-23.44.52:990][102]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:042][108]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:181][124]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:215][128]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:346][143]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:473][158]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:620][175]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:738][189]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:764][192]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:921][210]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.53:943][212]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.54:157][236]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.54:198][241]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.54:560][282]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.54:602][287]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.58:456][742]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.58:789][782]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:047][813]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:197][831]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:298][843]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:406][856]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:506][868]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:563][875]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:647][885]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:706][892]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:764][899]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.44.59:872][912]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.00:598][999]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.01:193][ 69]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.03:326][322]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.03:377][328]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.04:095][412]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.04:174][421]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.07:843][861]LogEditorViewport: Clicking Background
+[2022.11.25-23.45.13:665][550]Cmd: TRANSACTION UNDO
+[2022.11.25-23.45.13:665][550]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.25-23.45.14:250][557]Cmd: TRANSACTION UNDO
+[2022.11.25-23.45.14:250][557]LogEditorTransaction: Undo Clicking Background
+[2022.11.25-23.45.14:774][612]Cmd: TRANSACTION UNDO
+[2022.11.25-23.45.14:774][612]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.45.14:812][613]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.15:329][675]Cmd: TRANSACTION UNDO
+[2022.11.25-23.45.15:329][675]LogEditorTransaction: Undo Move Elements
+[2022.11.25-23.45.15:350][676]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.17:109][887]Cmd: TRANSACTION UNDO
+[2022.11.25-23.45.17:109][887]LogEditorTransaction: Undo Scale Elements
+[2022.11.25-23.45.17:133][888]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.20:361][271]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.20:453][282]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.21:039][351]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.21:090][357]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.23:918][689]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.24:031][701]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.24:382][742]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.24:433][748]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.25:364][858]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.25:456][869]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.26:863][ 36]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.26:967][ 48]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.28:587][241]LogEditorViewport: Clicking Background
+[2022.11.25-23.45.32:768][726]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.33:410][803]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.34:035][878]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.34:526][937]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.34:951][988]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.35:193][ 17]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.35:351][ 36]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.35:476][ 51]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.35:610][ 67]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.35:810][ 91]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.36:234][142]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.36:560][181]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.37:769][325]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.38:294][388]LogEditorViewport: Clicking Background
+[2022.11.25-23.45.43:222][959]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.44:249][ 68]LogEditorViewport: Clicking Background
+[2022.11.25-23.45.47:161][410]Cmd: EDIT COPY
+[2022.11.25-23.45.47:381][435]Cmd: EDIT PASTE
+[2022.11.25-23.45.47:433][436]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.48:208][527]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.50:207][764]Cmd: EDIT COPY
+[2022.11.25-23.45.50:434][790]Cmd: EDIT PASTE
+[2022.11.25-23.45.50:486][791]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.50:828][831]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.50:921][842]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.51:203][874]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.51:303][886]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.52:597][ 39]LogEditorViewport: Clicking Background
+[2022.11.25-23.45.57:624][616]Cmd: EDIT COPY
+[2022.11.25-23.45.57:837][639]Cmd: EDIT PASTE
+[2022.11.25-23.45.57:892][640]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.58:620][725]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.58:671][731]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.58:806][747]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.58:831][750]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.58:919][760]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.58:988][768]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.59:049][775]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.59:118][783]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.59:267][799]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.59:351][809]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.45.59:429][818]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.00:347][928]LogEditorViewport: Clicking Background
+[2022.11.25-23.46.14:720][596]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.15:129][645]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.15:331][669]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.15:509][690]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.15:619][703]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.15:904][737]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.17:781][959]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.19:537][165]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.21:205][364]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.21:969][452]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.26:520][990]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.41:113][692]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.46.47:775][482]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.47.27:178][112]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.11.25-23.47.27:178][112]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.11.25-23.47.27:179][112]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.Actor_0
+[2022.11.25-23.47.27:179][112]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.Actor_0
+[2022.11.25-23.48.08:197][845]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CustomContent/Blueprints/Item.Item_C
+[2022.11.25-23.48.08:197][845]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CustomContent/Blueprints/Item.Item_C
+[2022.11.25-23.48.08:198][845]LogActorFactory: Actor Factory spawned Blueprint /Game/CustomContent/Blueprints/Item.Item as actor: Item_C /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.Item_C_0
+[2022.11.25-23.48.08:198][845]LogActorFactory: Actor Factory spawned Blueprint /Game/CustomContent/Blueprints/Item.Item as actor: Item_C /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.Item_C_0
+[2022.11.25-23.48.11:098][148]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CustomContent/Blueprints/Item.Item_C
+[2022.11.25-23.48.11:098][148]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CustomContent/Blueprints/Item.Item_C
+[2022.11.25-23.48.11:100][148]LogActorFactory: Actor Factory spawned Blueprint /Game/CustomContent/Blueprints/Item.Item as actor: Item_C /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.Item_C_1
+[2022.11.25-23.48.11:101][148]LogActorFactory: Actor Factory spawned Blueprint /Game/CustomContent/Blueprints/Item.Item as actor: Item_C /Game/CustomContent/Maps/Hub.Hub:PersistentLevel.Item_C_1
+[2022.11.25-23.48.11:127][149]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.17:023][829]Cmd: DELETE
+[2022.11.25-23.48.17:023][829]Cmd: ACTOR DELETE
+[2022.11.25-23.48.17:027][829]LogEditorActor: Deleted Actor: Actor
+[2022.11.25-23.48.17:051][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.11.25-23.48.17:063][829]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2022.11.25-23.48.20:316][203]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.20:500][224]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.20:727][251]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.20:756][254]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.20:775][256]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.20:819][261]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.20:990][281]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:363][325]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:432][333]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:486][339]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:540][345]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:602][352]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:646][357]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.21:861][382]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.22:135][413]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.22:685][476]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.24:682][703]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.24:958][735]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.26:040][862]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.30:566][392]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.31:258][473]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.31:785][534]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.32:855][661]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.33:106][691]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.33:416][728]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.33:895][785]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.34:579][865]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.42:886][798]LogEditorViewport: Clicking Background
+[2022.11.25-23.48.45:191][ 62]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.46:135][174]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.47:638][353]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.48:016][397]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.48:780][487]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.49:380][559]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.49:904][622]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.50:423][683]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.53:956][ 98]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.54:350][144]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.57:612][533]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.48.58:541][641]LogEditorViewport: Clicking Background
+[2022.11.25-23.49.01:392][971]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.49.02:019][ 45]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.49.02:322][ 81]LogEditorViewport: Clicking Background
+[2022.11.25-23.49.07:941][739]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.49.08:491][801]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.49.11:896][188]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.49.14:596][507]LogNavigationDataBuild: Navigation data generation finished in /Game/CustomContent/Maps/Hub.
+[2022.11.25-23.49.33:515][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.11.25-23.49.34:392][673]LogSavePackage: Moving output files for package: /Game/CustomContent/Maps/Hub
+[2022.11.25-23.49.34:403][673]LogSavePackage: Moving 'M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Saved/HubD7BEBC544A7F3785AFE31D9271F4B78B.tmp' to 'M:/Senior Year- Fall/VR/RossJ_DuttI/RossJ_DuttI/MyProject7/Content/CustomContent/Maps/Hub.umap'
+[2022.11.25-23.49.34:486][673]AssetCheck: New page: Asset Save: Hub
+[2022.11.25-23.49.34:486][673]LogContentValidation: Display: Validating World /Game/CustomContent/Maps/Hub.Hub
