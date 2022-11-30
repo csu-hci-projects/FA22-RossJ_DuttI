@@ -1,7 +1,7 @@
 # RossJ_DuttI 
 
 ## Timed Scavenger hunt
-### Rules
+### How to play
 - You have 5 minutes to find all 5 of the items
 - Items are collected by grabbing the item
 - Once all 5 items are collected  you have to find the exit
