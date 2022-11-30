@@ -1,15 +1,18 @@
 # RossJ_DuttI 
 
-Real teamname(Joking): The WoMD(Weapons of Mass Destruction)
+## Timed Scavenger hunt
+### Rules
+- You have 5 minutes to find all 5 of the items
+- Items are collected by grabbing the item
+- Once all 5 items are collected  you have to find the exit
+- The level exit is a stoplight. Buttons will turn green when an item is collected
+- You exit the level by Grabbing the blue cube by the "stop light"
 
-**Ideas**
-
-Boardgames(multiplayer if possible if not then either AI or player playes both parts)
-
-Skiing Simulator
-
-Climbing
-
-Building Game - build stuff
-
-Scavenger Hunt - multiple bingo(120 items) randomly create a bingo board that is unique and has no duplicate items
+### Controls
+- Teleport: Right Joystick
+- Snap Turn: Left Joystick
+- Grab: Trigger or Grab button
+- Find Game Objectives: Pressdown Left Joystick
+- Back to Hub: Pressdown Right Joystick and the top Button
+- Press a Button: A
+- Game Exit: Pressdown Right Joystick and the bottom Button
