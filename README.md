@@ -14,5 +14,6 @@
 - Grab: Trigger or Grab button
 - Find Game Objectives: Pressdown Left Joystick
 - Back to Hub: Pressdown Right Joystick and the top Button
-- Press a Button: A
+- Press a Button: Press A
 - Game Exit: Pressdown Right Joystick and the bottom Button
+- Teleport to start of the Maze: Press X
